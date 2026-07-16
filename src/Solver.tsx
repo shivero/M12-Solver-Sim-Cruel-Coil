@@ -6,7 +6,7 @@ export const Solver = () => {
   const [mechanicResult, setMechanicPassed] = useState<boolean>(false);
   const [selectedMechanic, setSelectedMechanic] = useState<string>();
   const [playerRole, setRole] = useState<Role | null>(() => getRandomRole());
-  const buttonState = turn >= 5 ? 'Reset' : 'Next Turn';
+  const buttonState = turn >= 5 ? 'Reset2' : 'Next Turn';
 
   const handleChangeTurn = () => {
     if (turn >= 5) {

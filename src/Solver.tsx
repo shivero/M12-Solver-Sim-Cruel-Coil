@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from 'preact/hooks';
 import { SolverData } from './solverdata';
 import { type MechanicType, AvailableMechanics, type Roles as Role } from './solverdata.types';
 export const Solver = () => {
